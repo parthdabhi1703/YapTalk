@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iChat - Realtime Node Socket.io Chat App</title>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Chat Container -->
+    <div class="chat-container">
+      <!-- Chat Header -->
+      <div class="chat-header">
+        <!-- <div class="back-button">&#xF5DE;<div> -->
+          <img
+          src="image.png"
+          style="height: 40px"
+          alt="Profile"
+          class="profile-pic"
+          />
+          <div class="header-info">
+            <div id="user-name">John Doe</div>
+            <div style="font-size: 12px">online</div>
+          </div>
+          <div class="trash-icon">
+            <img src="trash.png" alt="" style="height: 24px;" id="clear-messages">
+          </div>
+        </div>
+
+      <!-- Chat Messages -->
+      <div class="chat-messages container">
+        <div class="messages-container">
+          <!-- Incoming Message -->
+          <!-- <div class="message incoming">
+            <div class="message-bubble">
+              <div>Hey, how are you?</div>
+              <div class="timestamp">10:30 AM</div>
+            </div>
+          </div> -->
+  
+          <!-- Outgoing Message -->
+          <!-- <div class="message outgoing">
+            <div class="message-bubble">
+              <div>I'm good, thanks! 😊</div>
+              <div class="timestamp">10:31 AM</div>
+            </div>
+          </div>
+        </div> -->
+        </div>
+
+      <!-- Message Input -->
+      <div class="chat-input send">
+        <form action="#" id="send-container">
+          <input
+            type="text"
+            name="messageInp"
+            class="message-input"
+            id="messageInp"
+            placeholder="Type a message"
+          />
+          <button class="btn send-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
