@@ -1,0 +1,16 @@
+# Ignore dependencies
+node_modules/
+package-lock.json
+
+# Ignore environment variables
+.env
+
+# Ignore logs and cache files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Render or deployment files (optional)
+dist/
