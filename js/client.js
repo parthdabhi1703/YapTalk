@@ -1,5 +1,5 @@
 // Get the socket.io instance
-const socket = io('http://127.0.0.1:8000');
+const socket = io();
 
 // Get DOM elements
 const form = document.getElementById('send-container');
