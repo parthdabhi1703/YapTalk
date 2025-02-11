@@ -152,9 +152,21 @@
   }
 }
 
-@media (max-width: 395px) {
+/* @media (max-width: 395px) {
   .message-input {
     width: 190px;
+  }
+} */
+
+@media (max-width: 400px) {
+  .message-input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  .message-input {
+    width: 220px;
   }
 }
 
