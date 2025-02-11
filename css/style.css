@@ -61,6 +61,7 @@
 }
 
 .message-bubble {
+  z-index: 1;
   max-width: 70%;
   padding: 10px 15px;
   border-radius: 15px;
@@ -85,6 +86,7 @@
 }
 
 .chat-input {
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
